@@ -1,0 +1,21 @@
+# First pull from origin !!
+git pull origin master
+
+# Find the diff between working and staging directory
+git diff
+
+# Find the difference between local and remote
+git fetch
+git diff origin/branch
+
+
+# Check which branches are merged
+git branch --merged
+
+# Merge branch with master
+git merge <branch-name>
+
+# Delete a branch locally
+git branch -d branch-name
+# Delete a branch remotely
+git push origin --delete <branch-name>
