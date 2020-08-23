@@ -27,6 +27,9 @@ git push origin master
 
 # Get the commit logs
 git log
+git log --stat
 
 # Change the message for commit
 git commit --amend -m "Completed subtract functionality"
+
+:wq
