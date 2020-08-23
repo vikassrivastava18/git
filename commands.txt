@@ -19,3 +19,8 @@ git merge <branch-name>
 git branch -d branch-name
 # Delete a branch remotely
 git push origin --delete <branch-name>
+
+
+# When creating a remote repo with a readme file, follow these steps:
+git pull --rebase origin master
+git push origin master
